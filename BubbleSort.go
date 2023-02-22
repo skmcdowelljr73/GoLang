@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 // BubbleSort_Course2_Week1
-var numberSlice []int
+var numberSlice [10]int
 
 func main() {
-	fmt.Println("Enter 10 + or - numbers to sort ")
+	fmt.Print("Enter 10 + or - numbers to sort\n ")
 	fmt.Scan(&numberSlice)
 }
 
